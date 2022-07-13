@@ -12,3 +12,5 @@ This site collects details about all aspects of importing an SFM database into F
 There are several high-level divisions:
 - [Workflow](docs/workflow)
   - describes the basic workflow that applies for most SFM import projects.
+- [Bantu](docs/bantu) (not written yet)
+  - provides details specific to importing dictionaries for Bantu languages, with special attention to noun classes and plurals.
