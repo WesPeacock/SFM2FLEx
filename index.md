@@ -14,3 +14,5 @@ There are several high-level divisions:
   - describes the basic workflow that applies for most SFM import projects.
 - [Bantu](docs/bantu) (not written yet)
   - provides details specific to importing dictionaries for Bantu languages, with special attention to noun classes and plurals.
+- [PLB imports](docs/PLBImports) (not written yet)
+  - goes into further detail on some features that primarily occur in databases for languages stored in the Philippines Branch (PLB) version of standard format markers.
