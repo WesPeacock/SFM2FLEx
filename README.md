@@ -1,4 +1,4 @@
-# IOmporting SFM to FLEx: Best Practices
+# Importing SFM to FLEx: Best Practices
 ### A Website About Importing Toolbox Databases in FLEx
 
 :heavy_exclamation_mark: This website is in development and not yet complete. :heavy_exclamation_mark:
