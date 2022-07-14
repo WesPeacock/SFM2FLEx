@@ -3,7 +3,7 @@ layout: default
 title: General setup
 parent: Set up infrastructure
 grand_parent: Workflow
-nav_order: 1
+nav_order: 999
 ---
 
 The first phase involves setting the stage for a successful import process. Importing an SFM file into FLEx is a complicated venture. To increase the chances of success, it is best to follow each of these steps in detail.
