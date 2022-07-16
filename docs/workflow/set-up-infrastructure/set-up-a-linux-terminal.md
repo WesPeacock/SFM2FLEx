@@ -70,13 +70,14 @@ It is beyond the scope of this material to explain how to use WSL, but the most 
 
 - Windows and Linux specify directories differently
 - Case is significant in Linux filenames and commands
-- name in quotes vs using \<space>
+- In addition to putting a name in quotes, in Linux you can use \\\<space\> to represent a filename with a space.
 - Some examples:
   - If you have a file named "Notes to Myself.txt" in a sub-directory "Stuff"
-  - Windows can specify the file as:
+  - Windows specifies the file as:
     - ".\Stuff\Notes to Myself.txt" or ".\STUFF\NOTES TO MYSELF.TXT"
   - Linux uses:
-    - ./Stuff/Notes\ to\ Myself.txt
+    - ./Stuff/Notes\ to\ Myself.txt, using \\\<space> with no quotes, or
+    - "./Stuff/Notes to Myself.txt"
 - In WSL, to get to any of the folders on your Windows system, you have to start by specifying a path that starts with "/mnt/c/Users"  (This is called an absolute path, because it references the full path, starting from the root.  An absolute path references the same folder, no matter which folder you are in when you use it.)
 - For instance, to get to your Documents folder, you would give the command:
 ```bash
@@ -87,5 +88,28 @@ cd /mnt/c/Users/<MyUserName>/Documents
 - Once you are in any Windows folder, you can use relative paths with the cd command (see below).
 
 ### Navigating directories
+- Normally you would use a command like *"cd PathToMyFolder"* where *"PathToMyFolder"* represents the path to the directory you want to get to.  *"PathToMyFolder"* can be either an absolute path or a relative path.
+- If the folder you want to get to (for instance, *WorkingFolder*) is a child of the one you are in, you only have to say *"cd WorkingFolder"*  (This is called a "relative path", because you are only specifying the portion of the path relative to where you are currently located.)
+- You can use *"cd .."* to get to the directory that is the parent of the one you are in.
+- You can use *"cd -"* to go to the previous directory you were in before the last cd command.
+- Once you are in a directory, you can use the command *"ls"* to see what is in the directory. *"ls -la"* gives a more complete listing with more information about each file
+- Autocompletion:  When you are changing to a directory, you can type *"cd&nbsp;"* followed by the beginning of a directory.  Once you have typed a few letters, press tab, and it will attempt "auto completion".  If there is only one directory that matches, it will fill that out.  If there is more than one, it will show you all that match.  If you type a few more letters, you may have enough to press tab again and get the match.
+- Autocompletion works whenever you are giving a command that expects a file or path.
+- If you gave a command at the command line, but it wasn't quite right, and you need to adjust just a small portion of it, you can use the "up arrow" to get to your previous command, and then edit it.  Using "up arrow" more than once gets you to more commands that you gave earlier.
+- "\<Ctrl-R\>text" allows you to search for a previous command that contains "text".
 
 ### Redirection and Pipes in WSL
+In WSL, many commands can read their input either from a file or from a previous command in a pipeline of commands. There are four that control the flow of data between commands or files.
+- The bar character, "\|", between two commands says send the output to the next command.
+- The less than character, "<" says get the input for a command from the file following the <
+- The greater than character, ">" says send your output to a file.
+- Two greater than characters, ">>" says add your output to the end of a file.
+
+Some additional things to note:
+- If there's no ">" or ">>" the output of the last command goes to the screen.
+- Error and status messages are normally sent to the screen.
+- In documentation etc., the input, output and error/status message streams are named **STDIN**, **STDOUT** and **STDERR**.
+- If you have **command1 \| command2** then **STDOUT** for command1 becomes **STDIN** for **command2**.
+- You can use **"2>filename"** to send **STDERR** to a file instead of the screen.
+
+There's an example of piping in the [instructions to enumerate the markers in a file](badlink). Let's look at it in detail:
