@@ -113,3 +113,26 @@ Some additional things to note:
 - You can use **"2>filename"** to send **STDERR** to a file instead of the screen.
 
 There's an example of piping in the [instructions to enumerate the markers in a file](badlink). Let's look at it in detail:
+```bash
+cat filename.db | sed  -e "s/ .*$//" | sort | uniq -c > sfm-list.txt
+```
+There's 4 commands in the pipeline:
+- **cat** gets a filename(s) on the command line and sends the contents to **STDOUT**.
+```bash
+cat filename.db | sed  -e "s/ .*$//"
+```
+is the same as
+```bash
+sed -e "s/ .*$//" < filename.db
+```
+- **sed -e** does some commands that use regular expressions on **STDIN** and then passes the result to **STDOUT**.
+  - This pipe does the sed command **s/from/to/**
+  - **s/from/to/** takes text that matches **from** and changes it into **to**.
+  - the **to** can be empty, in which case from is deleted.
+  - The effect here is to delete everything following the first space, i.e., everything but the leading SFM.
+  - That converts each line into just its SFM.
+- **sort** does what it says; it sorts **STDIN** and then passes the result to
+  - this puts all the same SFMs together into alphabetical order.
+  - **uniq** reads **STDIN** and ignores repeats. then passes the result to **STDOUT**
+  - The **-c** option adds a count of how many times a line was repeated.
+- The **> sfm-list.txt** at the end store the sorted, counted list of SFM markers into **sfm-list.txt**
