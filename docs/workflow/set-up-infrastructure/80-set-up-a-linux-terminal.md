@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Set up a Linux terminal
-parent: Set up infrastructure
+title: 1B Set up a Linux terminal
+parent: 1A Set up infrastructure
 grand_parent: Workflow
 nav_order: 80
 ---

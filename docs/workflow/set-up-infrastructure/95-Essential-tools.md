@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Essential tools
-parent: Set up infrastructure
+title: 1D Essential tools
+parent: 1A Set up infrastructure
 grand_parent: Workflow
 nav_order: 95
 ---

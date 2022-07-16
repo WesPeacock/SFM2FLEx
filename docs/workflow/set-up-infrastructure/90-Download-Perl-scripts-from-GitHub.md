@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Download Perl scripts from GitHub
-parent: Set up infrastructure
+title: 1C Download Perl scripts from GitHub
+parent: 1A Set up infrastructure
 grand_parent: Workflow
 nav_order: 90
 ---

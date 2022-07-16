@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Working Directory
-parent: Set up infrastructure
+parent: 1A Set up infrastructure
 grand_parent: Workflow
 nav_order: 50
 ---
