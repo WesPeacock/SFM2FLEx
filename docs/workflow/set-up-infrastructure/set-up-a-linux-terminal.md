@@ -55,8 +55,36 @@ sudo apt install silcc teckit
 ```
 
 ## Using WSL
+It is beyond the scope of this material to explain how to use WSL, but the most important things you need to know are:
+- How to start it and get a terminal window
+- How to find a Windows folder/directory from the terminal
+- How to change directories within your Windows directory structure
+- How to run Perl
 
-### Finding Windows folders
+### Finding Windows folders in WSL
+- Linux documentation refers to Windows folders as "directories".
+
+- The way to change directory in Linux is with the command "cd" and the path you want to get to.
+
+- If you are typing a command and somehow get stuck (for instance, you have typed something where it is waiting for you to input something, but you don't know what, or you didn't mean to type that), you can get out of the command by typing Ctrl-D or Ctrl-C.  One or the other of those should get you back to the command prompt so you can start a new command.
+
+- Windows and Linux specify directories differently
+- Case is significant in Linux filenames and commands
+- name in quotes vs using \<space>
+- Some examples:
+  - If you have a file named "Notes to Myself.txt" in a sub-directory "Stuff"
+  - Windows can specify the file as:
+    - ".\Stuff\Notes to Myself.txt" or ".\STUFF\NOTES TO MYSELF.TXT"
+  - Linux uses:
+    - ./Stuff/Notes\ to\ Myself.txt
+- In WSL, to get to any of the folders on your Windows system, you have to start by specifying a path that starts with "/mnt/c/Users"  (This is called an absolute path, because it references the full path, starting from the root.  An absolute path references the same folder, no matter which folder you are in when you use it.)
+- For instance, to get to your Documents folder, you would give the command:
+```bash
+cd /mnt/c/Users/<MyUserName>/Documents
+```
+- The command prompt in the terminal shows you the path of the folder you are currently in.
+
+- Once you are in any Windows folder, you can use relative paths with the cd command (see below).
 
 ### Navigating directories
 
