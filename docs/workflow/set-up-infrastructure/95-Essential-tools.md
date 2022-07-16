@@ -5,7 +5,7 @@ parent: Set up infrastructure
 grand_parent: Workflow
 nav_order: 95
 ---
-# Essential tools
+# 1D. Essential tools
 
 There are certain tools that are used throughout this site.  Before you begin, it would be good to download, install and become familiar with the following.
  - **[Notepad++](https://notepad-plus-plus.org/)** - is a useful text editor that allows more flexibility than what comes with Windows (Notepad).  Some helpful features:

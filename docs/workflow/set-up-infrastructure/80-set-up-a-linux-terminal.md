@@ -5,7 +5,7 @@ parent: Set up infrastructure
 grand_parent: Workflow
 nav_order: 80
 ---
-# Set up a Linux terminal
+# 1B. Set up a Linux terminal
 
 Many of the instructions on this site assume you have a Linux terminal.  Windows Subsystem for Linux (WSL) is one way to get that on a Windows machine.  The preferred Linux system is Ubuntu. The purpose for setting up a Linux terminal is that DLS has created some Perl scripts to do things (like add, delete, rename or rearrange fields, etc.) to the SFM files in order to make the file easier to import correctly into FLEx. These scripts can only be run in a Linux terminal.
 

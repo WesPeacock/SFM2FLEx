@@ -5,7 +5,7 @@ parent: Set up infrastructure
 grand_parent: Workflow
 nav_order: 90
 ---
-# Download Perl scripts from GitHub
+# 1C. Download Perl scripts from GitHub
 
 The perl scripts and sample control files are saved on a site named github.com, in a space dedicated to the SIL Dictionary & Lexicography Services.  The link to the DLS section of GitHub is:
 
