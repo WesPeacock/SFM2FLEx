@@ -1,6 +1,6 @@
 ---
 layout: default
-title: General Setup
+title: 1A General Setup
 parent: 1 Set up infrastructure
 has_children: true
 nav_order: 10

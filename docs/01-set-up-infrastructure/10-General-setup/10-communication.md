@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Communication
-parent: General Setup
+parent: 1A General Setup
 grand_parent: 1 Set up infrastructure
 nav_order: 10
 ---
