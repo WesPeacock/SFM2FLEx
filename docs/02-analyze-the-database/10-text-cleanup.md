@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Text Cleanup
+title: 2A Text Cleanup
 parent: 2 Analyze the database
 nav_order: 10
 ---
-# Text Cleanup
+# 2A Text Cleanup
 ## Line ends
 Most of these scripts work better if the files have Unix line endings.  However, there are some steps of the process that either expect Windows line endings, or change the file to have Windows line endings.  Specifically, Solid always writes the file out with Windows line endings, and CC assumes the file has Windows line endings.  If CC runs on a file with Unix line endings, you may end up with a file with mixed line endings, and that could lead to data corruption.   You could also end up with mixed line endings if you apply certain regular expressions.
 
