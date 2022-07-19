@@ -2,7 +2,6 @@
 layout: default
 title: Using Solid
 parent: 3 Validate structure
-grand_parent: Workflow
 nav_order: 20
 ---
 # Using Solid

@@ -2,7 +2,6 @@
 layout: default
 title: Convention for Notes to Linguist
 parent: 3 Validate structure
-grand_parent: Workflow
 nav_order: 10
 ---
 # Convention for Notes to Linguist
