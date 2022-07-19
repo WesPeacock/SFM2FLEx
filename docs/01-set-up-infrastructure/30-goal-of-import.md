@@ -2,7 +2,6 @@
 layout: default
 title: Goal of Import
 parent: 1A Set up infrastructure
-grand_parent: Workflow
 nav_order: 30
 ---
 # Goal of Import

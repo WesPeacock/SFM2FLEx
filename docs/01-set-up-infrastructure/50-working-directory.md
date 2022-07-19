@@ -2,7 +2,6 @@
 layout: default
 title: Working Directory
 parent: 1A Set up infrastructure
-grand_parent: Workflow
 nav_order: 50
 ---
 # Set Up a Working Directory

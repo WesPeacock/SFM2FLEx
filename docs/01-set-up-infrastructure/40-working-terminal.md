@@ -2,7 +2,6 @@
 layout: default
 title: Working Terminal
 parent: 1A Set up infrastructure
-grand_parent: Workflow
 nav_order: 40
 ---
 # Set Up a Working Terminal
