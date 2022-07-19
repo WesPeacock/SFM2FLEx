@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Enumerate the markers
+title: 2C Enumerate the markers
 parent: 2 Analyze the database
-nav_order: 20
+nav_order: 30
 ---
-# Enumerate the markers
+# 2C Enumerate the markers
 ## Make a list of all the markers
 On a Linux system, you can get the marker list with a command line expression:
 ```bash
