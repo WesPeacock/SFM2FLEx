@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 1C Download Perl scripts from GitHub
-parent: 1A Set up infrastructure
-nav_order: 90
+parent: 1 Set up infrastructure
+nav_order: 30
 ---
 # 1C. Download Perl scripts from GitHub
 

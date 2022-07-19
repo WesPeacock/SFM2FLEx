@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 1D Essential tools
-parent: 1A Set up infrastructure
-nav_order: 95
+parent: 1 Set up infrastructure
+nav_order: 40
 ---
 # 1D. Essential tools
 

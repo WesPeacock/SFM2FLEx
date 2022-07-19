@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 1B Set up a Linux terminal
-parent: 1A Set up infrastructure
-nav_order: 80
+parent: 1 Set up infrastructure
+nav_order: 20
 ---
 # 1B. Set up a Linux terminal
 
