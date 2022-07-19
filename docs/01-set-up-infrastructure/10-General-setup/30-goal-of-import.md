@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Goal of Import
-parent: 1A Set up infrastructure
+parent: General Setup
+grand_parent: 1 Set up infrastructure
 nav_order: 30
 ---
 # Goal of Import
