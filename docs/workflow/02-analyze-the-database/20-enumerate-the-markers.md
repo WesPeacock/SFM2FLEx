@@ -2,7 +2,7 @@
 layout: default
 title: Enumerate the markers
 parent: 2 Analyze the database
-nav_order: 10
+nav_order: 20
 ---
 # Enumerate the markers
 ## Make a list of all the markers
