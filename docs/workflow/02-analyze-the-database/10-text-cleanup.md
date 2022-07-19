@@ -2,7 +2,6 @@
 layout: default
 title: Text Cleanup
 parent: 2 Analyze the database
-grand_parent: Workflow
 nav_order: 10
 ---
 # Text Cleanup
