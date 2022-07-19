@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-nav_order: 10
+nav_order: 05
 description: "A site with details about all aspects of importing an SFM database into FLEx."
 ---
 # Importing SFM Databases into FLEx
