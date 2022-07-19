@@ -2,6 +2,7 @@
 layout: default
 title: Using Solid
 parent: 3 Validate structure
+has_children: true
 nav_order: 20
 ---
 # Using Solid
