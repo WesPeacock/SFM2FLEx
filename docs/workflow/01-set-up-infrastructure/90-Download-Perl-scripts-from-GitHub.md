@@ -19,7 +19,7 @@ The pages on this site that ask you to use a certain script will normally provid
 
 To download the file, Locate the button labeled Raw (green circle in the image below) at the top of the listing. Right-click on it with your mouse to get a menu that allows you save the file to your computer (red circle: "Save link as..."). If you left-click on it, you'll be dropped into a page where you can highlight the text and copy and paste it into an editor.
 
-![A sample GitHub page of a perl script](images/PerlScriptonGithub.png "The joinlines.pl script page on GitHub")
+![A sample GitHub page of a perl script](assets/PerlScriptonGithub.png "The joinlines.pl script page on GitHub")
 
 ### 2. Documentation and other files in the repository
 
