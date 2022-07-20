@@ -4,6 +4,7 @@ title: PLB Imports
 nav_order: 40
 parent: Special Consideration Databases
 has_children: true
+permalink: /docs/Special-Consideration-databases/PLBImports
 ---
 
 # PLB Imports

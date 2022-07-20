@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Bantu
-nav_order: 30
+nav_order: 10
 parent: Special Consideration Databases
 has_children: true
+permalink: /docs/Special-Consideration-databases/bantu
 ---
 
 # Bantu
