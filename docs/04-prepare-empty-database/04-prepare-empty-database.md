@@ -8,7 +8,7 @@ nav_order: 40
 - A. Create an empty database with the appropriate writing systems and make a backup.
   - Instructions on how to choose/set up Writing Systems
   - Set different colors for each (see:[FW-CONFIG 01 Set WS Colors](https://youtu.be/Ht0A7HGybi0).
-- B. Populate the Category list with the set of POS established earlier. [Instructions for this are in this submenu](b-populate-the-category-list.html)
+- B. Populate the Category list with the set of POS established earlier. [Instructions for this are in this submenu](b-populate-the-category-list/)
 - C. Create any custom fields that are needed, with appropriate writing systems.
 - D. List items
   - Add items to existing lists

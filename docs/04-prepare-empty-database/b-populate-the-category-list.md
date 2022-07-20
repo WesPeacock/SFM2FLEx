@@ -3,6 +3,7 @@ layout: default
 title: 4B Populate the Category list
 parent: 4 Prepare empty database
 nav_order: 10
+permalink: /docs/04-prepare-empty-database/b-populate-the-category-list/
 ---
 # 4B Populate the Category list
 There are several reasons for pre-populating the Category list in FLEx before importing:
